@@ -77,24 +77,24 @@ Now we include all clipped areas as a part of ResponseFiles json array:
 
 ```
 
-Name of the clipped area image is combined in the following way: **"<image\_name>+<name\_of\_the\_element>.png"**. In the example above, "Paper1" is a name of recognized image, "NameArea" is the name of an element.
+Name of the clipped area image is combined in the following way: **"<image_name>+<name_of_the_element>.png"**. In the example above, "Paper1" is a name of recognized image, "NameArea" is the name of an element.
 
 Image data is encoded as base64 string.
 ## **How to use in Client**
 Clip Area is a new element that can be added during template creation. In order to add Clip Area to the template click Clip Area on toolbar and choose location of the element. Make sure to properly name the element. Another property is JPEG quality, as clip area will be stored as JPEG image. Default JPEG quality is 85, but you can choose any between 0 and 100.
 
-![todo:image\_alt\_text](clip-areas-of-interest_1.png)
+![todo:image_alt_text](clip-areas-of-interest_1.png)
 
 
 
-![todo:image\_alt\_text](clip-areas-of-interest_2.png)
+![todo:image_alt_text](clip-areas-of-interest_2.png)
 
 Then, during Recognition stage, specified areas will be clipped from all processed images. List of these areas can be seen in the bottom right corner under the answers table. Each item can be reviewed by clicking the preview button. That will display clipped image in a separate view allowing you to save this area to the desired location.
 
-![todo:image\_alt\_text](clip-areas-of-interest_3.png)
+![todo:image_alt_text](clip-areas-of-interest_3.png)
 
 
 
-![todo:image\_alt\_text](clip-areas-of-interest_4.png)
+![todo:image_alt_text](clip-areas-of-interest_4.png)
 
 

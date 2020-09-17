@@ -7,11 +7,11 @@ weight: 30
 
 Aspose template generation API allows you to generate surveys and test sheets through simple text mark-up. Just prepare the survey text and you have a template ready to work with. Alternatively, you can write a header text, specify number of questions and answers… Congratulations! You get your personal test sheet.
 
-![todo:image\_alt\_text](template-generation_1.png)
+![todo:image_alt_text](template-generation_1.png)
 
-![todo:image\_alt\_text](template-generation_2.png)
+![todo:image_alt_text](template-generation_2.png)
 
-![todo:image\_alt\_text](template-generation_3.png)
+![todo:image_alt_text](template-generation_3.png)
 
 
 
@@ -22,18 +22,18 @@ Mark-up for generation supports several types of elements:
   Choosing <**#**> means the interviewee can only choose one answer. Respectively, <**\***> means that interviewee can choose several answers.
 - Answer sheet (several columns of questions). The element description starts with the
 
-<**?answer\_sheet=**> prefix which sets the sheet name. Then you can specify the number of questions using attributes <**elements\_count**>, columns <**columns\_count**>, <**answers\_count>** or <**answers\_list**>. The last allows to use custom answers, e.g. "(a) (b) (c) (d)" or "(1) (2) (3) (4) (5)". Also, you might specify question id to start from using property **<start\_id>** 
+<**?answer_sheet=**> prefix which sets the sheet name. Then you can specify the number of questions using attributes <**elements_count**>, columns <**columns_count**>, <**answers_count>** or <**answers_list**>. The last allows to use custom answers, e.g. "(a) (b) (c) (d)" or "(1) (2) (3) (4) (5)". Also, you might specify question id to start from using property **<start_id>** 
 
-- Grid (complex values that consist of similar sections). The element description starts with <?**grid**=> prefix which sets the grid name. Then you can specify the number of sections <**sections\_count**> and <**answers\_list**>. Grid allows to extract an ordered list of elements from the table, e.g. phone number, name, ID number and so on. The <**sections\_count**> specifies the length of the ordered list. The <**answers\_list**> bubbles in the sections of a table
+- Grid (complex values that consist of similar sections). The element description starts with <?**grid**=> prefix which sets the grid name. Then you can specify the number of sections <**sections_count**> and <**answers_list**>. Grid allows to extract an ordered list of elements from the table, e.g. phone number, name, ID number and so on. The <**sections_count**> specifies the length of the ordered list. The <**answers_list**> bubbles in the sections of a table
 - Image. You can add images, logos for example, in your template, as can be seen on one of the examples. The element description starts with **<?image=>** prefix, and then name of the image should be provided. Additionaly, you can specify image alignment by using <**align=>** tag following with one of the following values: **<left,center,right>**. Default value is **center**.   
 
 
 
-- Barcode. Barcodes, QR-codes and Aruco codes can be added onto your template for different purposes (QR-code with a link, barcode for a unique student ID, etc.). The element description starts with **<?barcode=>** prefix, where you have to provide the name of the barcode (e.g. "Student\_ID" or "AsposeWebsite"). Next, attributes follow: **<value>**  for the value that the barcode encodes, **<barcode\_type>** for the type of barcode (currently supported types are ['code39', 'ean', 'ean13', 'ean8', 'qr', 'aruco', 'jan', 'upc', 'upca']), optional **<qr\_version>** for QR-codes (values from 1 to 40, defaults to 1), **<x>** and **<y>** for custom top-left corner coordinates, and **<height>** to set the height of the barcode (width will adjust accordingly). **NB**: height is an approximate attribute, as barcodes must not be distorted by any kinds of interpolation, so the real height might be lower in order for barcodes to be rendered correctly.
+- Barcode. Barcodes, QR-codes and Aruco codes can be added onto your template for different purposes (QR-code with a link, barcode for a unique student ID, etc.). The element description starts with **<?barcode=>** prefix, where you have to provide the name of the barcode (e.g. "Student_ID" or "AsposeWebsite"). Next, attributes follow: **<value>**  for the value that the barcode encodes, **<barcode_type>** for the type of barcode (currently supported types are ['code39', 'ean', 'ean13', 'ean8', 'qr', 'aruco', 'jan', 'upc', 'upca']), optional **<qr_version>** for QR-codes (values from 1 to 40, defaults to 1), **<x>** and **<y>** for custom top-left corner coordinates, and **<height>** to set the height of the barcode (width will adjust accordingly). **NB**: height is an approximate attribute, as barcodes must not be distorted by any kinds of interpolation, so the real height might be lower in order for barcodes to be rendered correctly.
 
 All elements attributes names are preceded by <**\t**> symbol (tabulation)
 
-?text=Name\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_              Date\_\_\_\_\_\_\_\_\_\_\_\_
+?text=Name__________________________________              Date____________
 
 
 #What is Aspose.OMR main function?
@@ -80,32 +80,32 @@ All elements attributes names are preceded by <**\t**> symbol (tabulation)
 ?text=                        Answer sheet section
 
 
-?answer\_sheet=MainQuestions
+?answer_sheet=MainQuestions
 
-    elements\_count=100
+    elements_count=100
 
-    columns\_count=5
+    columns_count=5
 
-?text=Name\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_              Date\_\_\_\_\_\_\_\_\_\_\_\_
+?text=Name__________________________________              Date____________
 
 
-?answer\_sheet=MainQuestions
+?answer_sheet=MainQuestions
 
-    elements\_count=200
+    elements_count=200
 
-    columns\_count=5
+    columns_count=5
 
 ?image=Aspose.jpg
 
 align=left
 
 
-?text=Name\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date\_\_\_\_\_\_\_\_\_\_\_\_
+?text=Name__________________________________ Date____________
 
 
 ?grid=ID
 
-sections\_count=8
+sections_count=8
 
 
 #What is Aspose.OMR main function?
@@ -151,24 +151,24 @@ and "9" being preference towards flexibility.
 
 ?text= Answer sheet section
 
-?answer\_sheet=MainQuestions
+?answer_sheet=MainQuestions
 
-elements\_count=10
+elements_count=10
 
-columns\_count=5
+columns_count=5
 
-?text=Sign\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+?text=Sign________________________________
 
 
-?image=aspose\_omr\_logo5.png
+?image=aspose_omr_logo5.png
 
     align=right
 
-?barcode=Student\_ID
+?barcode=Student_ID
 
     value=5901234123457
 
-    barcode\_type=ean13
+    barcode_type=ean13
 
     x=900
 
@@ -180,9 +180,9 @@ columns\_count=5
 
     value=aspose.com
 
-    barcode\_type=qr
+    barcode_type=qr
 
-    qr\_version=1
+    qr_version=1
 
     x=2000
 
@@ -194,7 +194,7 @@ columns\_count=5
 
     value=53
 
-    barcode\_type=aruco
+    barcode_type=aruco
 
     x=140
 

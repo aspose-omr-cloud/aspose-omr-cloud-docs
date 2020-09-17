@@ -5,11 +5,11 @@ url: /overview/
 weight: 10
 ---
 
-![todo:image\_alt\_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 
 {{% alert color="primary" %}} 
 
-![todo:image\_alt\_text](overview_1.png)
+![todo:image_alt_text](overview_1.png)
 
 Aspose.OMR Cloud is a REST API to recognize optical mark from OMR scanned sheet images in the cloud. It can be used to recognize optical mark in a variety of image formats like JPG, TIF, TIFF, GIF and PDF documents. The API allows capturing human-marked data from document forms such as surveys, questionnaires, multiple-choice examination paper and other tests. With this Cloud solution, it is possible to recognize scanned images and even photos with high accuracy. Recognition is based on a template markup which contains a graphical mapping of the elements to be recognized from the scanned images.
 

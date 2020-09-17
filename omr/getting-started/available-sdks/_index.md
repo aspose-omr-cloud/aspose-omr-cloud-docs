@@ -5,7 +5,7 @@ url: /available-sdks/
 weight: 30
 ---
 
-![todo:image\_alt\_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 # **Aspose.OMR Cloud SDKs**
 Aspose.OMR Cloud is a modern REST oriented API, that allows easy integration into existing systems.
 ### **Why use an SDK?**
