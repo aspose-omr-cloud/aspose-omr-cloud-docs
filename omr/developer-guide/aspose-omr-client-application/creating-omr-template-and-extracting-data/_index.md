@@ -20,8 +20,8 @@ Aspose.OMR.Client tool allows developers to:
 You can easily understand the process to create/update an OMR template with the help of following flowchart:
 
 ![todo:image_alt_text](creating-omr-template-and-extracting-data_1.png)
-### **Working with Aspose.OMR.Client**
-Before getting started with [Aspose.OMR.Client tool](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dotnet/tree/master/Aspose.OMR.Client), please visit [OMR Template Requirements](/omr-template-requirements/), which describes the requirements and recommendations for creating templates. At present, supported image formats include:
+## **Working with Aspose.OMR.Client**
+Before getting started with [Aspose.OMR.Client tool](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dotnet/tree/master/Aspose.OMR.Client), please visit [OMR Template Requirements](/omr/omr-template-requirements/), which describes the requirements and recommendations for creating templates. At present, supported image formats include:
 
 - PNG
 - JPG

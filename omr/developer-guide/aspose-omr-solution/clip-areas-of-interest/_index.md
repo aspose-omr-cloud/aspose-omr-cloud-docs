@@ -8,27 +8,19 @@ weight: 50
 ## **Description**
 Users can specify areas of interest, which will be cropped from the recognized image and returned as a separate images in recognition response. In this way, user can obtain not only the recognition data, but also the cropped parts of the original image that may be further processed according to user needs.
 ## **Specification**
-#### **Element description**
+### **Element description**
 In order to provide clipping areas we introduce new markup element **AreaOfInterest** that looks like this:
 
-```html
+```json
 
 {
-
   "Type": "ClipArea",
-
   "Name": "NameArea",
-
   "JpegQuality": 85,
-
   "Width": 126,
-
   "Height": 61,
-
   "Top": 530,
-
   "Left": 327
-
 }
 
 ```
@@ -38,41 +30,28 @@ Clip area will be stored as JPEG image, default JPEG quality is 85. You may chan
 Please keep in mind that clip areas are cropped from the images that are sent to the recognition and might be preprocessed and compressed according to the preprocessing settings. This may affect the final quality of clipped images.
 
 This AreaOfInterest element is added along with the other elements in the template description file (.omr), which is processed during template correction. Actual request content, including validation and recognition has no changes.
-#### **Response**
+### **Response**
 We provide clipped images for each recognized image in the recognition response.
 
 Now we include all clipped areas as a part of ResponseFiles json array:
 
-**Updated Response**
+#### **Updated Response**
 
 ```html
 
 {
-
   "ResponseFiles": [
-
     {
-
       "Name": "RecognitionResults.dat",
-
       "Size": 121,
-
       "Data": "UXVlc3R.....24xMDpDCg=="
-
     },
-
     {
-
       "Name": "Paper1NameArea.png",
-
       "Size": 35437,
-
       "Data": "iVBORw0KGg.....5ErkJggg=="
-
     }
-
   ]
-
 }
 
 ```

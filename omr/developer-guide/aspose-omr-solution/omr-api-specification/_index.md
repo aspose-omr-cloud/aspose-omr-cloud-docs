@@ -9,15 +9,15 @@ weight: 20
 At present, Aspose.OMR for Cloud API exposes single function with string parameter that determines which specific action should be performed.
 
 {{< gist "aspose-cloud" "b0e9305b5be4b21598cfdd5dd21102cb" "Examples-.NET-PostRunOmrTask.cs" >}}
-#### **OMRFunctionParam Description**
+### **OMRFunctionParam Description**
 **OMRFunctionParam** is a separate class that has **FunctionParam** property. This property accepts string parameters, usually JSON strings, that are specific to each action. See examples given below for each action.
 
 |**Property Name**|**Type**|**Description**|
 | :- | :- | :- |
 |FunctionParam|string|Parameters specific to actionName|
-#### **OMR API Example**
+### **OMR API Example**
 {{< gist "aspose-cloud" "b0e9305b5be4b21598cfdd5dd21102cb" "Examples-.NET-OMR-API-EXAMPLE.cs" >}}
-#### **OMR Response structure**
+### **OMR Response structure**
 {{< gist "aspose-cloud" "b0e9305b5be4b21598cfdd5dd21102cb" "Examples-.NET-OMR-Response-Structure.cs" >}}
 
 |**Field**|**Meaning**|**Values Examples**|
@@ -60,104 +60,68 @@ Expected parameters values:
 Invocation example:
 
 {{< gist "aspose-cloud" "b0e9305b5be4b21598cfdd5dd21102cb" "Examples-.NET-Generate-Template.cs" >}}
-#### ` `**Response content details**
+#### **Response content details**
 - Within **OmrResponse.Payload.Result.Files** we produce generated .omr template file and .png image.
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-**OmrResponse.Payload.Result.Info.Details** contains:
+##### **OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
 string [] TaskMessages;
-
 string TaskResult;
 
 ```
 
 
-**OmrResponse.Payload.Result.Info.Details GenerateTemplate** example:
+##### **OmrResponse.Payload.Result.Info.Details GenerateTemplate** example:
 
-```csharp
+```json
 
 {
-
   "Details": {
-
     "TaskMessages": [],
-
     "TaskResult": "Pass",
-
   }
-
 }
 
 ```
 
 
-**Full Response GenerateTemplate example:**
+##### **Full Response GenerateTemplate example:**
 
-```html
+```json
 
 {
-
   "ErrorCode": 0,
-
   "ErrorText": "",
-
   "Payload": {
-
     "Result": {
-
       "TemplateId": null,
-
       "ExecutionTime": 0.65801920890808,
-
       "ResponseFiles": [
-
         {
-
           "Name": "AnswerSheet.omr",
-
           "Size": 53155,
-
           "Data": "ewogICAgIl.....I6IFtdCn0="
-
         }, 
-
         {
-
           "Name": "AnswerSheet.png",
-
           "Size": 353437,
-
           "Data": ""iVBORw0KGg.....5ErkJggg==""
-
         }
-
       ],
-
       "Info": {
-
         "ResponseVersion": "1.0",
-
         "ProcessedTasksCount": 1,
-
         "SuccessfulTasksCount": 1,
-
         "Details": { 
-
-			"TaskMessages": [],
-
-            "TaskResult":"Pass"
-
-		}
-
+	   "TaskMessages": [],
+           "TaskResult":"Pass"
+	}
       }
-
     }
-
   }
-
 }
 
 ```
@@ -175,96 +139,61 @@ Invocation example:
 - Within **OmrResponse.Payload.Result.Files** we produce **.omrcr** file with corrected template JSON data
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-**OmrResponse.Payload.Result.Info.Details** contains:
+##### **OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
 string [] TaskMessages;
-
 string TaskResult;
 
 ```
 
-**OmrResponse.Payload.Result.Info.Details Correction** example:
+##### **OmrResponse.Payload.Result.Info.Details Correction** example:
 
 ```csharp
 
 {
-
   "Details": {
-
     "TaskMessages": [
-
       "Initial image resolution was too low. We magnified image in 2.0 times"
-
     ],
-
     "TaskResult": "Pass"
-
   }
-
 }
 
 ```
 
-**Full Response Correction example**:
+##### **Full Response Correction example**:
 
-```html
+```json
 
 {
-
   "ErrorCode": 0,
-
   "ErrorText": "",
-
   "Payload": {
-
-    "Result": {
-
+	"Result": {
       "TemplateId": "5b535525-72fe-453f-83e8-5a058569620e",
-
       "ExecutionTime": 0.83317875862121582,
-
       "ResponseFiles": [
-
         {
-
           "Name": "AnswerSheet.omrcr",
-
           "Size": 27024,
-
           "Data": "ewogICAg.....GV0ZSI6IGZhbHNlCn0="
-
         }
-
       ],
-
       "Info": {
-
         "ResponseVersion": "1.0",
-
         "ProcessedTasksCount": 1,
-
         "SuccessfulTasksCount": 1,
-
         "Details": {
-
           "TaskMessages": [
-
             "Initial image resolution was too low. We magnified image in 2.0 times"
-
           ],
-
           "TaskResult": "Pass"
-
         }
-
       }
-
     }
-
   }
-
 }
 
 ```
@@ -282,7 +211,7 @@ Invocation example:
 - Within **OmrResponse.Payload.Result.Files** we produce RecognitionResult.dat file with finalization warnings and recognition data for the template image (note that it should not contain any results if image was filled)
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-**OmrResponse.Payload.Result.Info.Details** contains:
+##### **OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
@@ -292,78 +221,48 @@ string TaskResult;
 
 ```
 
-**OmrResponse.Payload.Result.Info.Details Finalization** example:
+##### **OmrResponse.Payload.Result.Info.Details Finalization** example:
 
-```csharp
+```json
 
 {
-
   "Details": {
-
     "TaskMessages": [],
-
     "TaskResult": "Pass"
-
   }
-
 }
 
 ```
 
-**Full Response Finalization example:**
+##### **Full Response Finalization example:**
 
 ```html
 
 {
-
   "ErrorCode": 0,
-
   "ErrorText": "",
-
   "Payload": {
-
     "Result": {
-
       "TemplateId": "5b535525-72fe-453f-83e8-5a058569620e",
-
       "ExecutionTime": 5.373408794403076,
-
       "ResponseFiles": [
-
         {
-
           "Name": "RecognitionResult.dat",
-
           "Size": 182,
-
           "Data": "ewogICAg.....lc3VsdCI6IFtdCn0="
-
         }
-
       ],
-
       "Info": {
-
         "ResponseVersion": "1.0",
-
         "ProcessedTasksCount": 1,
-
         "SuccessfulTasksCount": 1,
-
         "Details": { 
-
-			"TaskMessages": [],
-
-            "TaskResult":"Pass"
-
-		}
-
+		"TaskMessages": [],
+            	"TaskResult":"Pass"
+	}
       }
-
     }
-
   }
-
 }
 
 ```
@@ -381,122 +280,73 @@ Invocation example:
 - Within **OmrResponse.Payload.Result.Files** we produce .dat file with recognition data for the provided image.
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-**OmrResponse.Payload.Result.Info.Details** contains:
+##### **OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
 RecognitionStatistics[]
-
 {
-
 	string Name;
-
 	string[] TaskMessages;
-
 	string TaskResult;
-
 	double RunSeconds;
-
 }
 
 ```
 
-**OmrResponse.Payload.Result.Info.Details Recognition** example:
+##### **OmrResponse.Payload.Result.Info.Details Recognition** example:
 
 ```csharp
-
 {
-
   "Details": {
-
     "RecognitionStatistics": [
-
       {
-
         "Name": "photo.jpg",
-
         "TaskMessages": [],
-
         "TaskResult": "Pass",
-
         "RunSeconds": 1.7953619956970215
-
       }
-
     ]
-
   }
-
 }
 
 ```
 
-**Full Response Recognition example:**
+##### **Full Response Recognition example:**
 
 ```html
 
 {
-
   "ErrorCode": 0,
-
   "ErrorText": "",
-
   "Payload": {
-
     "Result": {
-
       "TemplateId": "5b535525-72fe-453f-83e8-5a058569620e",
-
       "ExecutionTime": 1.7034006118774414,
-
       "ResponseFiles": [
-
-        {
-
+	{
           "Name": "photo.dat",
-
           "Size": 121,
-
           "Data": "UXVlc3R.....24xMDpDCg=="
-
         }
-
       ],
-
       "Info": {
-
         "ResponseVersion": "1.0",
-
         "ProcessedTasksCount": 1,
-
         "SuccessfulTasksCount": 1,
-
         "Details": {
-
     		"RecognitionStatistics": [
-
 	    	  {
-
 	        	"Name": "photo.jpg",
-
-	    	    "TaskMessages": [],
-
+	    	    	"TaskMessages": [],
 	        	"TaskResult": "Pass",
-
 		        "RunSeconds": 1.3482120037078857
-
 		      }
-
 		    ]
-
 		  }
-
       }
-
     }
-
   }
-
 }
 
 ```
@@ -515,340 +365,186 @@ Invocation example:
 
 Example of recognition results file:
 
-**AsposeForm.dat**
+##### **AsposeForm.dat**
 
 ```java
 
 Question1: A
-
 Question2: D
-
 Question3: C
-
 Question4: EB
-
 Question5: D
-
 Question6: C
-
 Question7:
-
 Question8: B
-
 Question9: C
-
 Question10:
 
 ```
 
-PackedRules JSON example:
+### **PackedRules JSON example:**
 
-**Rules JSON**
+#### **Rules JSON**
 
 ```java
 
 {
-
   "Pages": [
-
     {
-
       "PageId": 12345,
-
       "CorrectPoints": 5,
-
       "IncorrectPoints": 2,
-
       "EmptyPoints": 1,
-
       "IncopleteAnswerPoints": 0.5,
-
       "IncopleteAnswersAllowed": true,
-
       "QuestionRules": [
-
         {
-
           "QuestionName": "Question1",
-
           "ToGrade": true,
-
           "Answer": "A",
-
           "CorrectPoints": 4
-
         },
-
         {
 
           "QuestionName": "Question2",
-
           "ToGrade": true,
-
           "Answer": "D"
-
         },
-
         {
-
           "QuestionName": "Question3",
-
           "ToGrade": true,
-
           "Answer": "C"
-
         },
-
         {
-
           "QuestionName": "Question4",
-
           "ToGrade": true,
-
           "Answer": "BE"
-
         },
-
         {
-
           "QuestionName": "Question5",
-
           "ToGrade": true,
-
           "Answer": "ED"
-
         },
-
         {
-
           "QuestionName": "Question6",
-
           "ToGrade": true,
-
           "Answer": "C"
-
         },
-
         {
-
           "QuestionName": "Question7",
-
           "ToGrade": true,
-
           "Answer": "A"
-
         },
-
         {
-
           "QuestionName": "Question8",
-
           "ToGrade": true,
-
           "Answer": "B"
-
         },
-
         {
-
           "QuestionName": "Question9",
-
           "ToGrade": true,
-
           "Answer": "D"
-
         },
-
         {
-
           "QuestionName": "Question10",
-
           "ToGrade": true,
-
           "Answer": "C",
-
           "EmptyPoints": 3
-
         }
-
       ]
-
     }
-
   ]
-
 }
 
 ```
 
 Grading results example (.grade file):
 
-**AsposeForm.grade Example**
+#### **AsposeForm.grade Example**
 
 ```java
 
 {
-
   "Pages": [
-
     {
-
       "PageId": 12345,
-
       "TotalPoints": 35.5,
-
       "MaxPossiblePoints": 49,
-
       "GradedQuestions": 10,
-
       "QuestionGrades": [
-
         {
-
           "QuestionName": "Question1",
-
           "Points": 4,
-
           "Response": "A",
-
           "CorrectAnswer": "A",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question2",
-
           "Points": 5,
-
           "Response": "D",
-
           "CorrectAnswer": "D",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question3",
-
           "Points": 5,
-
           "Response": "C",
-
           "CorrectAnswer": "C",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question4",
-
           "Points": 5,
-
           "Response": "EB",
-
           "CorrectAnswer": "BE",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question5",
-
           "Points": 0.5,
-
           "Response": "D",
-
           "CorrectAnswer": "ED",
-
           "IsCorrect": false
-
         },
-
         {
-
           "QuestionName": "Question6",
-
           "Points": 5,
-
           "Response": "C",
-
           "CorrectAnswer": "C",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question7",
-
           "Points": 1,
-
           "Response": "",
-
           "CorrectAnswer": "A",
-
           "IsCorrect": false
-
         },
-
         {
-
           "QuestionName": "Question8",
-
           "Points": 5,
-
           "Response": "B",
-
           "CorrectAnswer": "B",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question9",
-
           "Points": 2,
-
           "Response": "C",
-
           "CorrectAnswer": "D",
-
           "IsCorrect": false
-
         },
-
         {
-
           "QuestionName": "Question10",
-
           "Points": 3,
-
           "Response": "",
-
           "CorrectAnswer": "C",
-
           "IsCorrect": false
-
         }
-
       ]
-
     }
-
   ]
-
 }
 
 

@@ -10,4 +10,3 @@ weight: 20
 This section contains information about OMR template requirments, how to create OMR template and recognize optical mark.
 
 {{% /alert %}} 
-#### **Articles in this section**
