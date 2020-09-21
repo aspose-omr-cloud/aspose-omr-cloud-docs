@@ -31,175 +31,106 @@ Mark-up for generation supports several types of elements:
 
 - Barcode. Barcodes, QR-codes and Aruco codes can be added onto your template for different purposes (QR-code with a link, barcode for a unique student ID, etc.). The element description starts with **<?barcode=>** prefix, where you have to provide the name of the barcode (e.g. "Student_ID" or "AsposeWebsite"). Next, attributes follow: **<value>**  for the value that the barcode encodes, **<barcode_type>** for the type of barcode (currently supported types are ['code39', 'ean', 'ean13', 'ean8', 'qr', 'aruco', 'jan', 'upc', 'upca']), optional **<qr_version>** for QR-codes (values from 1 to 40, defaults to 1), **<x>** and **<y>** for custom top-left corner coordinates, and **<height>** to set the height of the barcode (width will adjust accordingly). **NB**: height is an approximate attribute, as barcodes must not be distorted by any kinds of interpolation, so the real height might be lower in order for barcodes to be rendered correctly.
 
-All elements attributes names are preceded by <**\t**> symbol (tabulation)
+All elements attributes names are preceded by < **\t** > symbol (tabulation)
 
+```java
 ?text=Name__________________________________              Date____________
 
 
 #What is Aspose.OMR main function?
-
     () OCR () Capture human-marked data
-
     () There is no main function () Enhance images
-
 #Can Aspose.OMR process not only scans, but also photos?
-
     () Yes, indeed! () No
-
 #Aspose.OMR is available on any platform, because it is:
-
     () Cross-platform code () Cloud service
-
 #Aspose.OMR works with any kind of OMR forms: tests, exams, questionnaires, surveys, etc.
-
     () Yes, indeed! () No
-
 #Excellent recognition results can be achieved only for filled bubbles at least for:
-
     () 40% () 60% () 75% () 98%
-
 #Does Aspose.OMR support bubbles mapping to any key names?
-
     () No () Partially (only "A, B, C..." or "1, 2, 3...") () Yes, any key names
-
 #Do you have to mark up every question on the page?
-
     (Yes) Yes, that will help a lot! (No) No
-
 #Rate your preference from 0 to 9 with "0" being preference towards performance
-
   and "9" being preference towards flexibility.
-
     (0) (1) (2) (3) (4) (5) (6) (7) (8) (9)
-
 #I found aspose omr to be a useful tool. (5 - strongly agree, 1 - strongly disagree)
-
     (5) (4) (3) (2) (1)
-
 
 ?text=                        Answer sheet section
 
-
 ?answer_sheet=MainQuestions
-
     elements_count=100
-
     columns_count=5
+```
 
+```java
 ?text=Name__________________________________              Date____________
 
-
 ?answer_sheet=MainQuestions
-
     elements_count=200
-
     columns_count=5
-
+ 
+ ```
+ ```java
+ 
 ?image=Aspose.jpg
-
 align=left
-
 
 ?text=Name__________________________________ Date____________
 
-
 ?grid=ID
-
 sections_count=8
 
-
 #What is Aspose.OMR main function?
-
 () OCR () Capture human-marked data
-
 () There is no main function () Enhance images
-
 #Can Aspose.OMR process not only scans, but also photos?
-
 () Yes, indeed! () No
-
 #Aspose.OMR is available on any platform, because it is:
-
 () Cross-platform code () Cloud service
-
 #Aspose.OMR works with any kind of OMR forms: tests, exams, questionnaires, surveys, etc.
-
 () Yes, indeed! () No
-
 #Excellent recognition results can be achieved only for filled bubbles at least for:
-
 () 40% () 60% () 75% () 98%
-
 #Does Aspose.OMR support bubbles mapping to any key names?
-
 () No () Partially (only "A, B, C..." or "1, 2, 3...") () Yes, any key names
-
 #Do you have to mark up every question on the page?
-
 (Yes) Yes, that will help a lot! (No) No
-
 #Rate your preference from 0 to 9 with "0" being preference towards performance
-
 and "9" being preference towards flexibility.
-
 (0) (1) (2) (3) (4) (5) (6) (7) (8) (9)
-
 #I found aspose omr to be a useful tool. (5 - strongly agree, 1 - strongly disagree)
-
 (5) (4) (3) (2) (1)
 
-
 ?text= Answer sheet section
-
 ?answer_sheet=MainQuestions
-
 elements_count=10
-
 columns_count=5
-
 ?text=Sign________________________________
 
 
 ?image=aspose_omr_logo5.png
-
     align=right
-
 ?barcode=Student_ID
-
     value=5901234123457
-
     barcode_type=ean13
-
     x=900
-
     y=3050
-
     height=400
-
 ?barcode=AsposeWebsite
-
     value=aspose.com
-
     barcode_type=qr
-
     qr_version=1
-
     x=2000
-
     y=120
-
     height=360
-
 ?barcode=ArucoTest
-
     value=53
-
     barcode_type=aruco
-
     x=140
-
     y=3200
-
     height=198
 
 
