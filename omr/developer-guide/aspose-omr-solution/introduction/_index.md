@@ -10,7 +10,7 @@ weight: 10
 Aspose.OMR Cloud APIs are REST APIs with response delivered in JSON format. It allows developers to add OMR functionality to their applications using a simple set of requests. With the use of Aspose.OMR Cloud APIs, developers can recognize data from photos.
 
 {{% /alert %}} 
-### **Features**
+## **Features**
 Aspose.OMR Cloud has the capability to capture human-marked data from documents like surveys, questionnaires, examination paper etc. With the use of Aspose.OMR Cloud, it is possible to recognize scanned images and even photos with high accuracy. Aspose.OMR Cloud supports following features:
 
 - Recognition of scanned images and photos
@@ -23,7 +23,7 @@ Aspose.OMR Cloud has the capability to capture human-marked data from documents 
 - Barcodes and QR-codes recognition
 - GUI OMR Editor (Cloud client)
 - Add, delete OMR elements from template
-### **Limitations**
+## **Limitations**
 Following are some limitations:
 
 - Recognition process works well with the bubbles at least 75% filled
