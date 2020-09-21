@@ -14,13 +14,9 @@ All images will be preprocessed before they are sent to cloud for recognition.
 ## **Image Preprocessing Presets Dialog**
 You should see this dialog when attempting to recognize images for the first time. It is also avialable via button at recognition toolbar.
 
-![todo:image_alt_text](https://sikorsky.dynabic.com/wiki/download/attachments/5046372/Toolbar.png?version=1&modificationDate=1522329359457)
-
 - Toolbar button to manually call the dialog
-
-![todo:image_alt_text](https://sikorsky.dynabic.com/wiki/download/attachments/5046372/Presets.png?version=1&modificationDate=1522329359432)
-
 - Image Preprocessing Presets Dialog
+
 ## **Managing Preprocessing Presets**
 - You can enable and disable image preprocessing. It is enabled by default and we recommend disabling it only when you have poor quality images.
 - Choosing one of the predefined presets depending on quality of your images:
