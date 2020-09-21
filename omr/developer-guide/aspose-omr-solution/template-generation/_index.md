@@ -33,7 +33,7 @@ Mark-up for generation supports several types of elements:
 
 All elements attributes names are preceded by < **\t** > symbol (tabulation)
 
-```java
+```text
 ?text=Name__________________________________              Date____________
 
 
@@ -65,7 +65,7 @@ All elements attributes names are preceded by < **\t** > symbol (tabulation)
     columns_count=5
 ```
 
-```java
+```text
 ?text=Name__________________________________              Date____________
 
 ?answer_sheet=MainQuestions
@@ -73,7 +73,7 @@ All elements attributes names are preceded by < **\t** > symbol (tabulation)
     columns_count=5
  
  ```
- ```java
+ ```text
  
 ?image=Aspose.jpg
 align=left
@@ -132,9 +132,3 @@ columns_count=5
     x=140
     y=3200
     height=198
-
-
-
-
-
-
