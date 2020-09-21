@@ -60,104 +60,68 @@ Expected parameters values:
 Invocation example:
 
 {{< gist "aspose-cloud" "b0e9305b5be4b21598cfdd5dd21102cb" "Examples-.NET-Generate-Template.cs" >}}
-### ` `**Response content details**
+#### ` `**Response content details**
 - Within **OmrResponse.Payload.Result.Files** we produce generated .omr template file and .png image.
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-#### **OmrResponse.Payload.Result.Info.Details** contains:
+##### **OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
 string [] TaskMessages;
-
 string TaskResult;
 
 ```
 
 
-#### **OmrResponse.Payload.Result.Info.Details GenerateTemplate** example:
+##### **OmrResponse.Payload.Result.Info.Details GenerateTemplate** example:
 
-```csharp
+```json
 
 {
-
   "Details": {
-
     "TaskMessages": [],
-
     "TaskResult": "Pass",
-
   }
-
 }
 
 ```
 
 
-#### **Full Response GenerateTemplate example:**
+##### **Full Response GenerateTemplate example:**
 
-```html
+```json
 
 {
-
   "ErrorCode": 0,
-
   "ErrorText": "",
-
   "Payload": {
-
     "Result": {
-
       "TemplateId": null,
-
       "ExecutionTime": 0.65801920890808,
-
       "ResponseFiles": [
-
         {
-
           "Name": "AnswerSheet.omr",
-
           "Size": 53155,
-
           "Data": "ewogICAgIl.....I6IFtdCn0="
-
         }, 
-
         {
-
           "Name": "AnswerSheet.png",
-
           "Size": 353437,
-
           "Data": ""iVBORw0KGg.....5ErkJggg==""
-
         }
-
       ],
-
       "Info": {
-
         "ResponseVersion": "1.0",
-
         "ProcessedTasksCount": 1,
-
         "SuccessfulTasksCount": 1,
-
         "Details": { 
-
-			"TaskMessages": [],
-
-            "TaskResult":"Pass"
-
-		}
-
+	   "TaskMessages": [],
+           "TaskResult":"Pass"
+	}
       }
-
     }
-
   }
-
 }
 
 ```
@@ -171,11 +135,11 @@ Expected parameters values:
 Invocation example:
 
 {{< gist "aspose-cloud" "b0e9305b5be4b21598cfdd5dd21102cb" "Examples-.NET-Correct-Template.cs" >}}
-### **Response content details**
+#### **Response content details**
 - Within **OmrResponse.Payload.Result.Files** we produce **.omrcr** file with corrected template JSON data
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-#### **OmrResponse.Payload.Result.Info.Details** contains:
+##### **OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
@@ -185,7 +149,7 @@ string TaskResult;
 
 ```
 
-#### **OmrResponse.Payload.Result.Info.Details Correction** example:
+##### **OmrResponse.Payload.Result.Info.Details Correction** example:
 
 ```csharp
 
@@ -207,7 +171,7 @@ string TaskResult;
 
 ```
 
-#### **Full Response Correction example**:
+##### **Full Response Correction example**:
 
 ```json
 
@@ -278,7 +242,7 @@ string TaskResult;
 
 ```
 
-**Full Response Finalization example:**
+##### **Full Response Finalization example:**
 
 ```html
 
