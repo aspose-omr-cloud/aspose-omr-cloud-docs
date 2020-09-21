@@ -60,7 +60,7 @@ Expected parameters values:
 Invocation example:
 
 {{< gist "aspose-cloud" "b0e9305b5be4b21598cfdd5dd21102cb" "Examples-.NET-Generate-Template.cs" >}}
-#### ` `**Response content details**
+#### **Response content details**
 - Within **OmrResponse.Payload.Result.Files** we produce generated .omr template file and .png image.
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
@@ -144,7 +144,6 @@ Invocation example:
 ```csharp
 
 string [] TaskMessages;
-
 string TaskResult;
 
 ```
@@ -154,19 +153,12 @@ string TaskResult;
 ```csharp
 
 {
-
   "Details": {
-
     "TaskMessages": [
-
       "Initial image resolution was too low. We magnified image in 2.0 times"
-
     ],
-
     "TaskResult": "Pass"
-
   }
-
 }
 
 ```
