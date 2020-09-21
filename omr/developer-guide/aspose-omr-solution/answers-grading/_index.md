@@ -17,23 +17,14 @@ It has a very simple structure, see example below:
 ```java
 
 Question1: A
-
 Question2: D
-
 Question3: C
-
 Question4: EB
-
 Question5: D
-
 Question6: C
-
 Question7:
-
 Question8: B
-
 Question9: C
-
 Question10:
 
 ```
@@ -45,135 +36,70 @@ Question10:
 ```java
 
 {
-
   "Pages": [
-
     {
-
       "PageId": 12345,
-
       "CorrectPoints": 5,
-
       "IncorrectPoints": 2,
-
       "EmptyPoints": 1,
-
       "IncompleteAnswerPoints": 0.5,
-
       "IncompleteAnswersAllowed": true,
-
       "QuestionRules": [
-
         {
-
           "QuestionName": "Question1",
-
           "ToGrade": true,
-
           "Answer": "A",
-
           "CorrectPoints": 4
-
         },
-
         {
-
           "QuestionName": "Question2",
-
           "ToGrade": true,
-
           "Answer": "D"
-
         },
-
         {
-
           "QuestionName": "Question3",
-
           "ToGrade": true,
-
           "Answer": "C"
-
         },
-
         {
-
           "QuestionName": "Question4",
-
           "ToGrade": true,
-
           "Answer": "BE"
-
         },
-
         {
-
           "QuestionName": "Question5",
-
           "ToGrade": true,
-
           "Answer": "ED"
-
         },
-
         {
-
           "QuestionName": "Question6",
-
           "ToGrade": true,
-
           "Answer": "C"
-
         },
-
         {
-
           "QuestionName": "Question7",
-
           "ToGrade": true,
-
           "Answer": "A"
-
         },
-
         {
-
           "QuestionName": "Question8",
-
           "ToGrade": true,
-
           "Answer": "B"
-
         },
-
         {
-
           "QuestionName": "Question9",
-
           "ToGrade": true,
-
           "Answer": "D"
-
         },
-
         {
-
           "QuestionName": "Question10",
-
           "ToGrade": true,
-
           "Answer": "C",
-
           "EmptyPoints": 3
-
         }
-
       ]
-
     }
-
   ]
-
 }
 
 ```
@@ -205,13 +131,9 @@ The second part is a JSON array that contains information about each question th
 ```java
 
 {
-
     "QuestionName": "Question2",
-
     "ToGrade": true,
-
     "Answer": "D"
-
 }
 
 ```
@@ -223,21 +145,13 @@ In case you want to customize specific question, you can provide additional prop
 ```java
 
 {
-
     "QuestionName": "Question1",
-
     "ToGrade": true,
-
     "Answer": "A",
-
     "CorrectPoints": 4,
-
     "IncorrectPoints": 1,
-
     "EmptyPoints": 0.5,
-
     "IncompleteAnswerPoints": 0
-
 }
 
 ```
@@ -257,167 +171,86 @@ The response contains a single **.rule** file and has the following structure:
 ```java
 
 {
-
   "Pages": [
-
     {
-
       "PageId": 12345,
-
       "TotalPoints": 35.5,
-
       "MaxPossiblePoints": 49,
-
       "GradedQuestions": 10,
-
       "QuestionGrades": [
-
         {
-
           "QuestionName": "Question1",
-
           "Points": 4,
-
           "Response": "A",
-
           "CorrectAnswer": "A",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question2",
-
           "Points": 5,
-
           "Response": "D",
-
           "CorrectAnswer": "D",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question3",
-
           "Points": 5,
-
           "Response": "C",
-
           "CorrectAnswer": "C",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question4",
-
           "Points": 5,
-
           "Response": "EB",
-
           "CorrectAnswer": "BE",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question5",
-
           "Points": 0.5,
-
           "Response": "D",
-
           "CorrectAnswer": "ED",
-
           "IsCorrect": false
-
         },
-
         {
-
           "QuestionName": "Question6",
-
           "Points": 5,
-
           "Response": "C",
-
           "CorrectAnswer": "C",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question7",
-
           "Points": 1,
-
           "Response": "",
-
           "CorrectAnswer": "A",
-
           "IsCorrect": false
-
         },
-
         {
-
           "QuestionName": "Question8",
-
           "Points": 5,
-
           "Response": "B",
-
           "CorrectAnswer": "B",
-
           "IsCorrect": true
-
         },
-
         {
-
           "QuestionName": "Question9",
-
           "Points": 2,
-
           "Response": "C",
-
           "CorrectAnswer": "D",
-
           "IsCorrect": false
-
         },
-
         {
-
           "QuestionName": "Question10",
-
           "Points": 3,
-
           "Response": "",
-
           "CorrectAnswer": "C",
-
           "IsCorrect": false
-
         }
-
       ]
-
     }
-
   ]
-
 }
 
 ```
