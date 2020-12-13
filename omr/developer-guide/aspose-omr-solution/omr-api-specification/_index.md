@@ -126,7 +126,7 @@ Expected parameters values:
 - Within **OmrResponse.Payload.Result.Files** we produce generated .omr template file and .png image.
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-####### **OmrResponse.Payload.Result.Info.Details** contains:
+**OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
@@ -136,7 +136,7 @@ string TaskResult;
 ```
 
 
-####### **OmrResponse.Payload.Result.Info.Details GenerateTemplate** example:
+**OmrResponse.Payload.Result.Info.Details GenerateTemplate** example:
 
 ```json
 
@@ -150,7 +150,7 @@ string TaskResult;
 ```
 
 
-####### **Full Response GenerateTemplate example:**
+**Full Response GenerateTemplate example:**
 
 ```json
 
@@ -212,11 +212,11 @@ Expected parameters values:
 
 {{< /tabs >}}
 
-####### **Response content details**
+###### **Response content details**
 - Within **OmrResponse.Payload.Result.Files** we produce **.omrcr** file with corrected template JSON data
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-####### **OmrResponse.Payload.Result.Info.Details** contains:
+**OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
@@ -225,7 +225,7 @@ string TaskResult;
 
 ```
 
-####### **OmrResponse.Payload.Result.Info.Details Correction** example:
+**OmrResponse.Payload.Result.Info.Details Correction** example:
 
 ```csharp
 
@@ -240,7 +240,7 @@ string TaskResult;
 
 ```
 
-####### **Full Response Correction example**:
+**Full Response Correction example**:
 
 ```json
 
@@ -299,11 +299,11 @@ Expected parameters values:
 
 {{< /tabs >}}
 
-####### **Response content details**
+###### **Response content details**
 - Within **OmrResponse.Payload.Result.Files** we produce RecognitionResult.dat file with finalization warnings and recognition data for the template image (note that it should not contain any results if image was filled)
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-####### **OmrResponse.Payload.Result.Info.Details** contains:
+ **OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
@@ -313,7 +313,7 @@ string TaskResult;
 
 ```
 
-####### **OmrResponse.Payload.Result.Info.Details Finalization** example:
+**OmrResponse.Payload.Result.Info.Details Finalization** example:
 
 ```json
 
@@ -326,7 +326,7 @@ string TaskResult;
 
 ```
 
-####### **Full Response Finalization example:**
+**Full Response Finalization example:**
 
 ```html
 
@@ -383,11 +383,11 @@ Expected parameters values:
 
 {{< /tabs >}}
 
-####### **Response content details**
+###### **Response content details**
 - Within **OmrResponse.Payload.Result.Files** we produce .dat file with recognition data for the provided image.
 - Within **OmrResponse.Payload.Result.Info.Details** we produce JSON with following content:
 
-####### **OmrResponse.Payload.Result.Info.Details** contains:
+**OmrResponse.Payload.Result.Info.Details** contains:
 
 ```csharp
 
@@ -401,7 +401,7 @@ RecognitionStatistics[]
 
 ```
 
-####### **OmrResponse.Payload.Result.Info.Details Recognition** example:
+**OmrResponse.Payload.Result.Info.Details Recognition** example:
 
 ```csharp
 {
@@ -419,7 +419,7 @@ RecognitionStatistics[]
 
 ```
 
-####### **Full Response Recognition example:**
+**Full Response Recognition example:**
 
 ```html
 
