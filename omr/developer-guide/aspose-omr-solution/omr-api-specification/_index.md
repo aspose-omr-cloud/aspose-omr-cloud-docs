@@ -106,7 +106,7 @@ Expected parameters values:
 
 ###### **Example**:
 
-{{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Node.js" >}}
+{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="Node.js" tabName3="PHP" tabName4="Python">}}
 
 {{< tab tabNum="1" >}}
 
@@ -117,6 +117,18 @@ Expected parameters values:
 {{< tab tabNum="2" >}}
 
 {{< gist "aspose-cloud" "9f031c49ff23d1a41298ad665944aefe" "Example-GenerateTemplate.ts" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "3beac24bdea025c4aad5a2f1ea81be9f" "Example-GenerateTemplate.php" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+{{< gist "aspose-cloud" "d226c533f812b92ae5218383e05c4d02" "Example-GenerateTemplate.py" >}}
 
 {{< /tab >}}
 
@@ -196,7 +208,7 @@ Expected parameters values:
 
 ###### **Example**:
 
-{{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Node.js" >}}
+{{< tabs tabTotal="4" tabID="5" tabName1="C#" tabName2="Node.js" tabName3="PHP" tabName4="Python">}}
 
 {{< tab tabNum="1" >}}
 
@@ -207,6 +219,18 @@ Expected parameters values:
 {{< tab tabNum="2" >}}
 
 {{< gist "aspose-cloud" "9f031c49ff23d1a41298ad665944aefe" "Example-CorrectTemplate.ts" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "3beac24bdea025c4aad5a2f1ea81be9f" "Example-CorrectTemplate.php" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+{{< gist "aspose-cloud" "d226c533f812b92ae5218383e05c4d02" "Example-CorrectTemplate.py" >}}
 
 {{< /tab >}}
 
@@ -283,7 +307,7 @@ Expected parameters values:
 
 ###### **Example**:
 
-{{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Node.js" >}}
+{{< tabs tabTotal="4" tabID="6" tabName1="C#" tabName2="Node.js" tabName3="PHP" tabName4="Python">}}
 
 {{< tab tabNum="1" >}}
 
@@ -294,6 +318,18 @@ Expected parameters values:
 {{< tab tabNum="2" >}}
 
 {{< gist "aspose-cloud" "9f031c49ff23d1a41298ad665944aefe" "Example-FinalizeTemplate.ts" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "3beac24bdea025c4aad5a2f1ea81be9f" "Example-FinalizeTemplate.php" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+{{< gist "aspose-cloud" "d226c533f812b92ae5218383e05c4d02" "Example-FinalizeTemplate.py" >}}
 
 {{< /tab >}}
 
@@ -367,7 +403,7 @@ Expected parameters values:
 
 ###### **Example**:
 
-{{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Node.js" >}}
+{{< tabs tabTotal="4" tabID="7" tabName1="C#" tabName2="Node.js" tabName3="PHP" tabName4="Python">}}
 
 {{< tab tabNum="1" >}}
 
@@ -378,6 +414,18 @@ Expected parameters values:
 {{< tab tabNum="2" >}}
 
 {{< gist "aspose-cloud" "9f031c49ff23d1a41298ad665944aefe" "Example-RecognizeImage.ts" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="3" >}}
+
+{{< gist "aspose-cloud" "3beac24bdea025c4aad5a2f1ea81be9f" "Example-RecognizeImage.php" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+{{< gist "aspose-cloud" "d226c533f812b92ae5218383e05c4d02" "Example-RecognizeImage.py" >}}
 
 {{< /tab >}}
 
