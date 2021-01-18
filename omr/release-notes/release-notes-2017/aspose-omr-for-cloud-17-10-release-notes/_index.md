@@ -10,7 +10,6 @@ weight: 30
 This page contains release notes for Aspose.OMR for Cloud 17.10 version.
 
 {{% /alert %}} 
-### **Features**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
