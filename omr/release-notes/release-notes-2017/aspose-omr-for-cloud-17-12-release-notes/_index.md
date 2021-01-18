@@ -10,7 +10,6 @@ weight: 10
 The page contains release notes for Aspose.OMR for Cloud 17.12 – [API Reference](https://apireference.aspose.cloud/omr/)
 
 {{% /alert %}} 
-### **Features and Improvements**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
