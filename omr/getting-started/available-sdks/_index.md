@@ -11,7 +11,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 ### **SDK benefits**
 Our supported SDKs are 100% tested and out of the box running. These SDKs are open source and have an MIT license. You can use them, and even customize them for absolutely free of charge.
 ### **Supported SDKs**
-{{< tabs tabTotal="7" tabID="1" tabName1=".NET" tabName2="Java & Android" tabName3="Node.js" tabName4="PHP" tabName5="Python" tabName6="Perl" tabName7="Ruby">}}
+{{< tabs tabTotal="7" tabID="1" tabName1=".NET" tabName2="Java" tabName3="PHP" tabName4="Python" tabName5="Ruby" tabName6="Node.js" tabName7="Perl">}}
 
 {{< tab tabNum="1" >}}
 
@@ -37,7 +37,7 @@ The complete source code of Aspose.OMR Cloud SDK for Java and Android is freely
 
 {{% alert color="primary" %}} 
 
-The complete source code of Aspose.OMR Cloud SDK for Node.js is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs).
+The complete source code of Aspose.OMR Cloud SDK for PHP is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-php).
 
 {{% /alert %}} 
 
@@ -47,7 +47,7 @@ The complete source code of Aspose.OMR Cloud SDK for Node.js is freely availabl
 
 {{% alert color="primary" %}} 
 
-The complete source code of Aspose.OMR Cloud SDK for PHP is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-php).
+The complete source code of Aspose.OMR Cloud SDK for Python is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-python).
 
 {{% /alert %}} 
 
@@ -57,7 +57,7 @@ The complete source code of Aspose.OMR Cloud SDK for PHP is freely available on
 
 {{% alert color="primary" %}} 
 
-The complete source code of Aspose.OMR Cloud SDK for Python is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-python).
+The complete source code of Aspose.OMR Cloud SDK for Ruby is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby).
 
 {{% /alert %}} 
 
@@ -67,7 +67,7 @@ The complete source code of Aspose.OMR Cloud SDK for Python is freely available
 
 {{% alert color="primary" %}} 
 
-The complete source code of Aspose.OMR Cloud SDK for Perl is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-perl).
+The complete source code of Aspose.OMR Cloud SDK for Node.js is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs).
 
 {{% /alert %}} 
 
@@ -77,10 +77,11 @@ The complete source code of Aspose.OMR Cloud SDK for Perl is freely available o
 
 {{% alert color="primary" %}} 
 
-The complete source code of Aspose.OMR Cloud SDK for Ruby is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby).
+The complete source code of Aspose.OMR Cloud SDK for Perl is freely available on the [GitHub](https://github.com/aspose-omr-cloud/aspose-omr-cloud-perl).
 
 {{% /alert %}} 
 
 {{< /tab >}}
+
 
 {{< /tabs >}}
