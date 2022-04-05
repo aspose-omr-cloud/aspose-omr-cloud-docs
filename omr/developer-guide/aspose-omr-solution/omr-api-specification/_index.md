@@ -27,12 +27,12 @@ At present, Aspose.OMR for Cloud API exposes single function with string paramet
 // First get Access Token
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
-curl -v "https://api.aspose.cloud/oauth2/token" -X POST -d 'grant_type=client_credentials&client_idXXXXXXXXX&client_secret=XXXXXXXXX' -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
 ```
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/omr/AnswerSheet/runOmrTask?actionName=CorrectTemplate" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"FunctionParam\": \"TemplateJSON\", \"AdditionalParam\": \"string\"}"
+curl -X POST "https://api.aspose.cloud/v3.0/omr/Aspose_test.txt/runOmrTask?actionName=GenerateTemplate" -H "accept: application/json" -H "authorization: Bearer <jwt token>" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{\"FunctionParam\": null, \"AdditionalParam\": null}"
 
 ```
 
@@ -103,6 +103,81 @@ Expected parameters values:
 - **name:** <Path to a text file that contains template textual description>
 - **actionName:**  <"GenerateTemplate">
 - **functionParams:** <JSON string containing path to folder with images that are used in template textual description>
+
+###### **cURL Example for Generate Template**
+
+{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+
+{{< tab tabNum="1" >}}
+
+```java
+
+// First get Access Token
+// Get App Key and App SID from https://dashboard.aspose.cloud/
+
+curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+
+```
+```java
+
+curl -X POST "https://api.aspose.cloud/v3.0/omr/Aspose_test.txt/runOmrTask?actionName=GenerateTemplate" -H "accept: application/json" -H "authorization: Bearer <jwt token>" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{\"FunctionParam\": null, \"AdditionalParam\": null}"
+
+```
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+```java
+
+{
+  "ErrorCode": 0,
+  "ErrorText": "string",
+  "Payload": {
+    "Result": {
+      "TemplateId": "string",
+      "ExecutionTime": 0,
+      "ResponseFiles": [
+        {
+          "Name": "string",
+          "Size": 0,
+          "Data": "string"
+        }
+      ],
+      "Info": {
+        "ResponseVersion": "string",
+        "ProcessedTasksCount": 0,
+        "SuccessfulTasksCount": 0,
+        "Details": {
+          "TaskMessages": [
+            "string"
+          ],
+          "TaskResult": "string",
+          "RecognitionStatistics": [
+            {
+              "Name": "string",
+              "TaskMessages": [
+                "string"
+              ],
+              "TaskResult": "string",
+              "RunSeconds": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ServerStat": {
+    "StorageDownloadTime": "string",
+    "OmrFunctionCallTime": "string"
+  }
+}
+
+```
+
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ###### **Example**:
 
