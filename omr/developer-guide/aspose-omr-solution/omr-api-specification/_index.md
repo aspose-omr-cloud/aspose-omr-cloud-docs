@@ -477,7 +477,7 @@ Expected parameters values:
 
 ##### **cURL Example for Finalize Template**
 
-{{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="6" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
