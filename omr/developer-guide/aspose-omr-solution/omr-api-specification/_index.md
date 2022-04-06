@@ -104,20 +104,12 @@ Expected parameters values:
 - **actionName:**  <"GenerateTemplate">
 - **functionParams:** <JSON string containing path to folder with images that are used in template textual description>
 
-###### **cURL Example for Generate Template**
+##### **cURL Example for Generate Template**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
-```java
-
-// First get Access Token
-// Get App Key and App SID from https://dashboard.aspose.cloud/
-
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
-
-```
 ```java
 
 curl -X POST "https://api.aspose.cloud/v3.0/omr/Aspose_test.txt/runOmrTask?actionName=GenerateTemplate" -H "accept: application/json" -H "authorization: Bearer <jwt token>" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{\"FunctionParam\": null, \"AdditionalParam\": null}"
@@ -299,6 +291,73 @@ Expected parameters values:
 - **actionName:** <"CorrectTemplate">
 - **functionParams:** <JSON string containing packed template data>
 
+##### **cURL Example for Correct Template**
+
+{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+
+{{< tab tabNum="1" >}}
+
+```java
+
+curl -X POST "https://api.aspose.cloud/v3.0/omr/Aspose_test.png/runOmrTask?actionName=CorrectTemplate" -H "accept: application/json" -H "authorization: Bearer <jwt token>" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{\"FunctionParam\": \"{\\r\ \\\"Files\":[\r\n{\r\n\"Name\":\"Aspose_test.omr\",\r\n\"Size\": xxxx,\r\n\"Data\": \"xxxx\"\r\n}\r\n]\r\n}", \"AdditionalParam\": null}"
+
+```
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+```java
+
+{
+  "ErrorCode": 0,
+  "ErrorText": "string",
+  "Payload": {
+    "Result": {
+      "TemplateId": "string",
+      "ExecutionTime": 0,
+      "ResponseFiles": [
+        {
+          "Name": "string",
+          "Size": 0,
+          "Data": "string"
+        }
+      ],
+      "Info": {
+        "ResponseVersion": "string",
+        "ProcessedTasksCount": 0,
+        "SuccessfulTasksCount": 0,
+        "Details": {
+          "TaskMessages": [
+            "string"
+          ],
+          "TaskResult": "string",
+          "RecognitionStatistics": [
+            {
+              "Name": "string",
+              "TaskMessages": [
+                "string"
+              ],
+              "TaskResult": "string",
+              "RunSeconds": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ServerStat": {
+    "StorageDownloadTime": "string",
+    "OmrFunctionCallTime": "string"
+  }
+}
+
+```
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
 ###### **Example**:
 
 {{< tabs tabTotal="7" tabID="4" tabName1="C#" tabName2="Java & Android" tabName3="Node.js" tabName4="PHP" tabName5="Python" tabName6="Perl" tabName7="Ruby">}}
@@ -416,6 +475,73 @@ Expected parameters values:
 - **actionName:** <"FinalizeTemplate">
 - **functionParams:** <Template ID string, recieved after Template Correction>
 
+##### **cURL Example for Finalize Template**
+
+{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+
+{{< tab tabNum="1" >}}
+
+```java
+
+curl -X POST "https://api.aspose.cloud/v3.0/omr/Aspose_test.omrcr/runOmrTask?actionName=FinalizeTemplate" -H "accept: application/json" -H "authorization: Bearer <jwt token>" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"FunctionParam\": \"xxxx\", \"AdditionalParam\": null}"
+
+```
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+```java
+
+{
+  "ErrorCode": 0,
+  "ErrorText": "string",
+  "Payload": {
+    "Result": {
+      "TemplateId": "string",
+      "ExecutionTime": 0,
+      "ResponseFiles": [
+        {
+          "Name": "string",
+          "Size": 0,
+          "Data": "string"
+        }
+      ],
+      "Info": {
+        "ResponseVersion": "string",
+        "ProcessedTasksCount": 0,
+        "SuccessfulTasksCount": 0,
+        "Details": {
+          "TaskMessages": [
+            "string"
+          ],
+          "TaskResult": "string",
+          "RecognitionStatistics": [
+            {
+              "Name": "string",
+              "TaskMessages": [
+                "string"
+              ],
+              "TaskResult": "string",
+              "RunSeconds": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ServerStat": {
+    "StorageDownloadTime": "string",
+    "OmrFunctionCallTime": "string"
+  }
+}
+
+```
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
 ###### **Example**:
 
 {{< tabs tabTotal="7" tabID="4" tabName1="C#" tabName2="Java & Android" tabName3="Node.js" tabName4="PHP" tabName5="Python" tabName6="Perl" tabName7="Ruby">}}
@@ -529,6 +655,73 @@ Expected parameters values:
 - **name:** <Path to image file (image name) that should be recognized>
 - **actionName:** <"RecognizeImage".>
 - **functionParams:** <Template ID, recieved after Template Correction>
+
+##### **cURL Example for Recognize Template**
+
+{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+
+{{< tab tabNum="1" >}}
+
+```java
+
+curl -X POST "https://api.aspose.cloud/v3.0/omr/Aspose_test.omrcr/runOmrTask?actionName=RecognizeImage" -H "accept: application/json" -H "authorization: Bearer <jwt token>" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"FunctionParam\": \"xxxx\", \"AdditionalParam\": null}"
+
+```
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+```java
+
+{
+  "ErrorCode": 0,
+  "ErrorText": "string",
+  "Payload": {
+    "Result": {
+      "TemplateId": "string",
+      "ExecutionTime": 0,
+      "ResponseFiles": [
+        {
+          "Name": "string",
+          "Size": 0,
+          "Data": "string"
+        }
+      ],
+      "Info": {
+        "ResponseVersion": "string",
+        "ProcessedTasksCount": 0,
+        "SuccessfulTasksCount": 0,
+        "Details": {
+          "TaskMessages": [
+            "string"
+          ],
+          "TaskResult": "string",
+          "RecognitionStatistics": [
+            {
+              "Name": "string",
+              "TaskMessages": [
+                "string"
+              ],
+              "TaskResult": "string",
+              "RunSeconds": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ServerStat": {
+    "StorageDownloadTime": "string",
+    "OmrFunctionCallTime": "string"
+  }
+}
+
+```
+
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ###### **Example**:
 
