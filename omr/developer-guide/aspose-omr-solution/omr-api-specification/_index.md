@@ -106,7 +106,7 @@ Expected parameters values:
 
 ##### **cURL Example for Generate Template**
 
-{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="2" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -293,7 +293,7 @@ Expected parameters values:
 
 ##### **cURL Example for Correct Template**
 
-{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="3" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -477,7 +477,7 @@ Expected parameters values:
 
 ##### **cURL Example for Finalize Template**
 
-{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="4" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
@@ -658,7 +658,7 @@ Expected parameters values:
 
 ##### **cURL Example for Recognize Template**
 
-{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+{{< tabs tabTotal="2" tabID="5" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
