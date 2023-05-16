@@ -1,6 +1,6 @@
 ---
 weight: 30
-date: "2022-12-20"
+date: "2023-04-20"
 author: "Vladimir Lapin"
 type: docs
 url: /developer-reference/
@@ -23,3 +23,5 @@ This reference will guide you through everything you need to know to get the mos
   An overview of the Aspose.OMR Cloud workflow - from designing a form to recognizing its filled hardcopies.
 - [Authorization](/omr/authorization/)  
   How to get an access token and use it to authorize Aspose.OMR Cloud API requests.
+- [Designing machine-readable forms](/omr/design-form/)  
+  How to design machine-readable Aspose.OMR Cloud forms of any layout and complexity with specialized markup languages.
