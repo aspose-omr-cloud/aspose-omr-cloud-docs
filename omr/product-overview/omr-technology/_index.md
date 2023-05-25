@@ -14,7 +14,7 @@ keywords:
 - concept
 ---
 
-Even if you never heard of **optical mark recognition (OMR)** before, you must have come across it more than once when taking exams, voting, filling out surveys, border entry forms, customs declarations, health insurance claims and similar documents. OMR is used to process a large number of hand-filled forms where you answer a question by drawing a random mark, hence the technology name, in a circle or a square (also known as "bubble").
+Even if you never heard of **optical mark recognition (OMR)** before, you must have come across it more than once when taking exams, voting, filling out surveys, border entry forms, customs declarations, health insurance claims and similar machine-readable documents. OMR is used to process a large number of hand-filled forms where you answer a question by drawing a random mark, hence the technology name, in a circle or a square (also known as "bubble").
 
 Manual reading and aggregation of results from hundreds and thousands of forms is a painfully long, tedious and error-prone process. OMR fully automates the process, allowing hundreds of sheets per minute to be recognized with nearly 100% accuracy, and saves the results directly to a database for further aggregation and analysis. OMR processing is sometimes accompanied by [optical character recognition (OCR)](https://products.aspose.cloud/ocr) to parse the contents of handwritten fields.
 

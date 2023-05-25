@@ -1,6 +1,6 @@
 ---
 weight: 10
-date: "2022-12-19"
+date: "2023-05-17"
 author: "Vladimir Lapin"
 type: docs
 url: /product-overview/
@@ -36,7 +36,6 @@ Aspose.OMR Cloud comes with open-source software development kits (SDKs) for .NE
 Find more information on Aspose.OMR Cloud and get professional help:
 
 - [GitHub repositories](https://github.com/aspose-omr-cloud)
-- [API reference](https://apireference.aspose.cloud/omr/)
 - [Free Support Forum](https://forum.aspose.cloud/c/omr/8)
 - [Paid Support Helpdesk](https://helpdesk.aspose.cloud/)
 - [Blog](https://blog.aspose.cloud/category/omr/)
