@@ -4,6 +4,7 @@ date: "2022-12-20"
 author: "Vladimir Lapin"
 type: docs
 url: /getting-started/
+feedback: OMRCLOUD
 title: Getting started
 description: Learn how to start using Aspose.OMR Cloud right away.
 keywords:

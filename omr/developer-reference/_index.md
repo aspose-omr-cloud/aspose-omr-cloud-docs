@@ -4,6 +4,7 @@ date: "2023-04-20"
 author: "Vladimir Lapin"
 type: docs
 url: /developer-reference/
+feedback: OMRCLOUD
 aliases:
 - /developer-guide/
 title: Developer's reference

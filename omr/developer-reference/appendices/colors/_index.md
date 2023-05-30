@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /supported-colors/
+feedback: OMRCLOUD
 title: Color codes
 description: The list of font colors and fill colors supported by Aspose.OMR Cloud.
 keywords:

@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/choicebox/
+feedback: OMRCLOUD
 title: choicebox
 description: An element that generates a question with a fixed number of answers.
 keywords:

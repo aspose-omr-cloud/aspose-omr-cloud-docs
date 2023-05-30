@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/custom_answer_sheet/
+feedback: OMRCLOUD
 title: custom_answer_sheet
 description: Custom_answer_sheet element generates a numbered list of answers with full control over the layout and content of an answer.
 keywords:

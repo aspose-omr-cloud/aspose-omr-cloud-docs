@@ -4,6 +4,7 @@ date: "2023-02-28"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/write_in/
+feedback: OMRCLOUD
 title: write_in
 description: Write_in element provides a blank field in which the respondent can hand write some text or draw a picture.
 keywords:

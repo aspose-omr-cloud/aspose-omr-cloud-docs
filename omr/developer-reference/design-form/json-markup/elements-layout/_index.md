@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/elements-layout/
+feedback: OMRCLOUD
 title: Layout
 description: Layout elements are used to arrange other elements and define the appearance and design of the OMR form.
 keywords:

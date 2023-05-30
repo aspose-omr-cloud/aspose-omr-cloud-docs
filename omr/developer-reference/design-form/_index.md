@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /design-form/
+feedback: OMRCLOUD
 title: Designing machine-readable forms
 description: Designing machine-readable Aspose.OMR Cloud forms of any layout and complexity with specialized markup languages.
 keywords:

@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /recognition-accuracy-threshold/
+feedback: OMRCLOUD
 title: Fine tuning recognition accuracy
 description: How to adjust the recognition accuracy to get reliable results under various conditions.
 keywords:

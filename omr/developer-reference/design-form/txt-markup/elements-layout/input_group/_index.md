@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/input_group/
+feedback: OMRCLOUD
 title: input_group
 description: Input_group element is used to insert personalized information, such as the respondent's name or email, into the form.
 keywords:

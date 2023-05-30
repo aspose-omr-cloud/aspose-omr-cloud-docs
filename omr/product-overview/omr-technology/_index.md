@@ -4,6 +4,7 @@ date: "2022-12-19"
 author: "Vladimir Lapin"
 type: docs
 url: /omr-technology/
+feedback: OMRCLOUD
 title: Optical mark recognition (OMR) at a glance
 description: Learn what optical mark recognition (OMR) is and how it is used in everyday life.
 keywords:

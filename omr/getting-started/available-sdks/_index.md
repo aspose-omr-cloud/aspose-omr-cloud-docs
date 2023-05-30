@@ -4,6 +4,7 @@ date: "2022-12-20"
 author: "Vladimir Lapin"
 type: docs
 url: /available-sdks/
+feedback: OMRCLOUD
 title: Available SDKs
 description: Find the latest software development kits (SDKs) that help you easily integrate Aspose.OMR Cloud into your applications.
 keywords:

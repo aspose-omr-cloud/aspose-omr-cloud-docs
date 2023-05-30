@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/page/
+feedback: OMRCLOUD
 title: Page
 description: Page element allows you to break large forms into several pages that are recognized as a single document.
 keywords:

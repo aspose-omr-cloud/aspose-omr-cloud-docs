@@ -4,6 +4,7 @@ date: "2022-12-20"
 author: "Vladimir Lapin"
 type: docs
 url: /how-it-works/
+feedback: OMRCLOUD
 title: How it works
 description: An overview of the Aspose.OMR Cloud workflow - from designing a form to recognizing its filled hardcopies.
 keywords:

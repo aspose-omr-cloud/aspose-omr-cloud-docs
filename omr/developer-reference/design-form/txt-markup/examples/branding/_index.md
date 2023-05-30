@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/examples/branded-survey/
+feedback: OMRCLOUD
 title: Branded survey
 description: A customer satisfaction survey decorated with your logo.
 keywords:

@@ -4,6 +4,7 @@ date: "2022-12-20"
 author: "Vladimir Lapin"
 type: docs
 url: /system-requirements/
+feedback: OMRCLOUD
 aliases:
 - /supported-platforms/
 title: System requirements

@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /send-form-for-recognition/
+feedback: OMRCLOUD
 title: Send OMR form for recognition
 description: How to send the filled OMR form to Aspose.OMR cloud for recognition.
 keywords:

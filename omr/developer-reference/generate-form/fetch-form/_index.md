@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /fetch-printable-form/
+feedback: OMRCLOUD
 title: Fetch printable form
 description: How to fetch a generated printable OMR form and a recognition pattern file from Aspose.OMR Cloud.
 keywords:

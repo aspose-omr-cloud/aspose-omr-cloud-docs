@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /generate-form/
+feedback: OMRCLOUD
 title: Generating machine-readable forms
 description: How to render a printable OMR form and generate a recognition pattern file for Aspose.OMR engine.
 keywords:

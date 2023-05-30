@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/examples/answer-sheet-barcode/
+feedback: OMRCLOUD
 title: Answer sheet with barcode
 description: A classic answer sheet with a barcode encoding the student's name.
 keywords:

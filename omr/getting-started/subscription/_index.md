@@ -4,6 +4,7 @@ date: "2022-12-20"
 author: "Vladimir Lapin"
 type: docs
 url: /subscription/
+feedback: OMRCLOUD
 aliases:
 - /pricing-plan/
 - /evaluate-aspose-omr/

@@ -4,6 +4,7 @@ date: "2022-12-19"
 author: "Vladimir Lapin"
 type: docs
 url: /supported-file-formats/
+feedback: OMRCLOUD
 title: Supported file formats
 description: File formats for images and recognition results supported by Aspose.OMR Cloud.
 keywords:

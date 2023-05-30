@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/content/
+feedback: OMRCLOUD
 title: Content
 description: Content element is used to add one or more lines of text to the parent element.
 keywords:

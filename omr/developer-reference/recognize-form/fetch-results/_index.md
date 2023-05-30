@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /fetch-recognition-results/
+feedback: OMRCLOUD
 title: Fetch form recognition results
 description: How to fetch from recognition results from Aspose.OMR Cloud.
 keywords:

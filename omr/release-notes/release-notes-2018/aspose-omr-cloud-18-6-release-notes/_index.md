@@ -2,6 +2,7 @@
 title: "Aspose.OMR Cloud 18.6 Release Notes"
 type: docs
 url: /aspose-omr-cloud-18-6-release-notes/
+feedback: OMRCLOUD
 weight: 40
 ---
 

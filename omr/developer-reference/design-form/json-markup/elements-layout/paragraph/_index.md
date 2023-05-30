@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/paragraph/
+feedback: OMRCLOUD
 title: Paragraph
 description: Paragraph element allows you to combine text and images.
 keywords:

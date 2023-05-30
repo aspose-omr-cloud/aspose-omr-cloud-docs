@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /recognize-form-sdk/
+feedback: OMRCLOUD
 title: Recognizing machine-readable forms with Aspose.OMR Cloud SDK
 description: How to recognize a completed OMR form and generate a recognition pattern file for Aspose.OMR engine.
 keywords:

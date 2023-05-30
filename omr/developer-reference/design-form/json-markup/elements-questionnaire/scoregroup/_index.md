@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/scoregroup/
+feedback: OMRCLOUD
 feedback: OMRNET
 aliases:
 - /template-generation/json/elements-description/score/

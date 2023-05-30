@@ -4,6 +4,7 @@ date: "2022-12-20"
 author: "Vladimir Lapin"
 type: docs
 url: /sign-up/
+feedback: OMRCLOUD
 title: Signing up
 description: Learn how to sign up for Aspose.OMR Cloud service.
 keywords:

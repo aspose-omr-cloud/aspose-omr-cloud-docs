@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /recognize-form/
+feedback: OMRCLOUD
 title: Recognizing machine-readable forms
 description: How to recognize the filled form with Aspose.OMR Cloud.
 keywords:

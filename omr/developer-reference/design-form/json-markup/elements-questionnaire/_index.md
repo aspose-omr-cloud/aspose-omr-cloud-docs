@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/elements-questionnaire/
+feedback: OMRCLOUD
 title: Questionnaires
 description: Questionnairy elements allow you to build OMR-ready surveys, ballots, checklists, and similar forms.
 keywords:

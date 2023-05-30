@@ -4,6 +4,7 @@ date: "2023-05-24"
 author: "Vladimir Lapin"
 type: docs
 url: /supported-fonts/
+feedback: OMRCLOUD
 title: Font families
 description: The list of font font families supported by Aspose.OMR Cloud.
 keywords:

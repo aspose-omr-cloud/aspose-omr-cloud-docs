@@ -4,6 +4,7 @@ date: "2023-02-28"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/block/
+feedback: OMRCLOUD
 title: block
 description: Block element is used to organize content within containers.
 keywords:

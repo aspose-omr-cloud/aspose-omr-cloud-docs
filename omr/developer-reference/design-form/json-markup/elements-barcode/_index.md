@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/elements-barcode/
+feedback: OMRCLOUD
 title: Barcodes and QR codes
 description: Add barcodes and QR codes to personalize or uniquely identify a form.
 keywords:

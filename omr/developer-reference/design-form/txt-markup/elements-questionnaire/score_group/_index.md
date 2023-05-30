@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/score_group/
+feedback: OMRCLOUD
 title: score_group
 description: Score_group element defines a group of questions with multiple evaluation criteria, which are summed up during recognition.
 keywords:

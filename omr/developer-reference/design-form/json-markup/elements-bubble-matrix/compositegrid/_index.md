@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/compositegrid/
+feedback: OMRCLOUD
 title: CompositeGrid
 description: CompositeGrid element generates a highly customizable matrix of numbered bubbles that are combined into a single answer.
 keywords:

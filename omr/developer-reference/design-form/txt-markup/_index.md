@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/
+feedback: OMRCLOUD
 title: Text markup
 description: Lightweight markup language for machine-readable OMR forms specifically tailored for Aspose.OMR Cloud.
 keywords:

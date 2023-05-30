@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/table/
+feedback: OMRCLOUD
 title: table
 description: Table element organizes questions and answers in a tabular structure.
 keywords:

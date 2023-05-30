@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/answersheet/
+feedback: OMRCLOUD
 title: AnswerSheet
 description: AnswerSheet element generates a numbered matrix of bubbles arranged in multiple columns to make more efficient use of space.
 keywords:

@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /txt-markup/image/
+feedback: OMRCLOUD
 title: image
 description: Image element is used to add a picture.
 keywords:

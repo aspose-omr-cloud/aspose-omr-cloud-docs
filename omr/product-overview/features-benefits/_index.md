@@ -4,6 +4,7 @@ date: "2022-12-19"
 author: "Vladimir Lapin"
 type: docs
 url: /features-benefits/
+feedback: OMRCLOUD
 title: Why Aspose.OMR Cloud?
 description: Discover key features and benefits of Aspose.OMR Cloud.
 keywords:

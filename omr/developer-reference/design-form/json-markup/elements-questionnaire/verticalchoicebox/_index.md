@@ -4,6 +4,7 @@ date: "2023-03-27"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/verticalchoicebox/
+feedback: OMRCLOUD
 feedback: OMRNET
 title: VerticalChoiceBox
 description: VerticalChoiceBox element generates a vertical question block with multiple answers and an optional write-in field.

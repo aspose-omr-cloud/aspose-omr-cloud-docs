@@ -4,6 +4,7 @@ date: "2022-12-20"
 author: "Vladimir Lapin"
 type: docs
 url: /authorization/
+feedback: OMRCLOUD
 title: Authorization
 description: How to get an access token and use it to authorize Aspose.OMR Cloud API requests.
 keywords:

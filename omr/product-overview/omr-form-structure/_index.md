@@ -4,6 +4,7 @@ date: "2022-12-19"
 author: "Vladimir Lapin"
 type: docs
 url: /omr-form-structure/
+feedback: OMRCLOUD
 title: Aspose.OMR form structure
 description: The layout and structure of the Aspose.OMR Cloud printable form and the meaning of its key elements.
 keywords:

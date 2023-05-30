@@ -4,6 +4,7 @@ date: "2023-04-21"
 author: "Vladimir Lapin"
 type: docs
 url: /json-markup/emptyline/
+feedback: OMRCLOUD
 title: EmptyLine
 description: EmptyLine element is used to add vertical spacing between elements.
 keywords:
